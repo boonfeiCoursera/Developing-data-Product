@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Resting Metabolic Rate (RMR) Calculator</title>
+  <meta name="description" content="">
+  <meta name="author" content="BoonFei">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <link rel="stylesheet" href="libraries/frameworks/revealjs/css/reveal.min.css">
+  <link rel="stylesheet" href="libraries/frameworks/revealjs/css/theme/simple.css" id="theme">
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" id="theme">
+  <!--[if lt IE 9]>
+  <script src="lib/js/html5shiv.js"></script>
+  <![endif]-->  <link rel="stylesheet" href = "assets/css/custom.css">
+<link rel="stylesheet" href = "assets/css/ribbons.css">
+
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section class='custom' data-state='' id='slide-1'>
+  <h1>Resting Metabolic Rate (RMR) Calculator</h1>
+  
+</section>
+<section class='custom' data-state='' id='slide-2'>
+  <h2>What is RMR?</h2>
+  <p>Your BMR (Basal Metabolic Rate) is an estimate of how many calories you&#39;d burn if you were to do nothing but rest for 24 hours. It represents the minimum amount of energy needed to keep your body functioning, including breathing and keeping your heart beating.</p>
+
+<p>Your BMR does not include the calories you burn from normal daily activities or exercise.</p>
+
+</section>
+<section class='custom' data-state='' id='slide-3'>
+  <h2>WHAT DETERMINES RESTING METABOLIC RATE?</h2>
+  <p>A very small number of people have physical conditions that give them strange resting metabolic rates.</p>
+
+<p>However, for the vast majority of people, resting metabolic rate can be calculated knowing a few key variables. They are age, sex, weight, height, and fat-free body mass. Fat-free mass is a very important variable. Weight and height are used in one formula to determine body surface area.</p>
+
+
+<div class='notes'>
+    
+</div>
+
+
+</section>
+<section class='custom' data-state='' id='slide-4'>
+  <h2>THINGS THAT AFFECT YOUR METABOLIC RATE</h2>
+  <p>MUSCLE: More muscle increases your RMR.</p>
+
+<p>AGE: Your RMR decreases with age.</p>
+
+<p>GENETICS: A decrease in your RMR can be due to genetics.</p>
+
+<p>THE WEATHER: Living in a cold enviroment can increase your RMR. I know this sounds strange, but you expend more energy while moving around in cold weather. It&#39;s a lot easier to move around in summer but more of an effort to &quot;get going&quot; in winter.</p>
+
+<p>MEALS: Small regular meals will increase your RMR.</p>
+
+<p>PREGNANCY: It can increase your RMR.</p>
+
+<p>CRASH-DIETING: It will decrease your RMR.</p>
+
+<p>SUPPLEMENTS: Some supplements can raise your RMR.</p>
+
+</section>
+<section class='custom' data-state='' id='slide-5'>
+  <h2>Project Submission</h2>
+  <ul>
+<li>shinyapps.io (<a href="https://boonfeicoursera.shinyapps.io/shiny-app/">shinny apps</a>)</li>
+<li> I make it after watching this <a href="https://www.coursera.org/specialization/jhudatascience/1">Coursera Data Science Specialization</a> </li>
+</ul>
+
+</section>
+    </div>
+  </div>
+</body>
+  <script src="libraries/frameworks/revealjs/lib/js/head.min.js"></script>
+  <script src="libraries/frameworks/revealjs/js/reveal.min.js"></script>
+  <script>
+  // Full list of configuration options available here:
+  // https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
+    theme: Reveal.getQueryHash().theme || 'simple', 
+    transition: Reveal.getQueryHash().transition || 'default', 
+    dependencies: [
+    // Cross-browser shim that fully implements classList -
+    // https://github.com/eligrey/classList.js/
+      { src: 'libraries/frameworks/revealjs/lib/js/classList.js', condition: function() { return !document.body.classList;}},
+      // Zoom in and out with Alt+click
+      { src: 'libraries/frameworks/revealjs/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+      // Speaker notes
+      { src: 'libraries/frameworks/revealjs/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+      // Remote control your reveal.js presentation using a touch device
+      //{ src: 'libraries/frameworks/revealjs/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+      ]
+  });
+  </script>  <!-- LOAD HIGHLIGHTER JS FILES -->
+<script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<!-- DONE LOADING HIGHLIGHTER JS FILES -->
+ 
+
+</html>
